@@ -1,0 +1,12 @@
+<servlet><servlet>
+	<servlet-name>MyCMS</servlet-name>
+	<servlet-class>com.examplecompany.MyCMS</servlet-class>
+</servlet>
+	<servlet-name>MyCMS</servlet-name>
+	<servlet-class>com.examplecompany.MyCMS</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>MyCMS</servlet-name>
+	<url-pattern>/CMS</url-pattern>
+</servlet-mapping>
