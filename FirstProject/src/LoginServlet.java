@@ -20,7 +20,7 @@ import javax.servlet.ServletException;
 			{
 				response.setContentType("text/html");
 				PrintWriter out = response.getWriter();
-				
+				//response.sendRedirect("success.html");
 				out.println("success");
 				out.flush();
 				System.out.println("Login success");
